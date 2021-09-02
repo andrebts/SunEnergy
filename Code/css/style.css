@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
 body{
     margin:0;
 }
@@ -21,4 +24,12 @@ body{
 
 .footer{
     
+}
+.menu{
+  font-size: 2em;
+  font-family: 'Lexend Deca', sans-serif;
+ 
+}
+.nav-link{
+    color: #0C4453;
 }
