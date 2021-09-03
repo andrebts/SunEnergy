@@ -28,8 +28,11 @@ body{
 .menu{
   font-size: 2em;
   font-family: 'Lexend Deca', sans-serif;
- 
+  padding-top: 140px;
 }
 .nav-link{
     color: #0C4453;
+}
+#imglogo{
+    padding-inline-start: 70px;
 }
