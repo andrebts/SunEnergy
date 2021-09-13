@@ -1,10 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 body{
     margin:0;
 }
-
 .section1{
     padding-right: 0;
     padding-left: 0;
@@ -26,18 +26,38 @@ body{
     
 }
 
-.menu{
-  font-size: 2em;
+#menu{
   font-family: 'Lexend Deca', sans-serif;
-  padding-inline-start: 50px;
+  font-weight: normal;
+  padding-top: 130px;
+  padding-inline-start: 40px;
+
+
 }
 
 .nav-link{
     color: #0C4453;
+    font-size: 44px;
+    align-self: auto;
+}
+.nav-link:hover{
+    color: #58CA74;
 }
 
 #imglogo{
-    padding-inline-start: 70px;
+    padding-inline-start: 50px;
     padding-top: 3px;
+}
+p{
+   
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 180px;
+    font-size: 50px;
+    color:#185D70;
+    word-break: keep-all;
+    text-align: left;
     
+}
+.carousel-caption{
+    left: 4%;
 }
