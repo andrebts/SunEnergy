@@ -4,6 +4,7 @@
 
 body{
     margin:0;
+    padding:0%;
 }
 .section1{
     padding-right: 0;
@@ -12,6 +13,7 @@ body{
     width: 100vw;
     background-image: url(../Design/header.png);
     background-size: cover;
+    overflow:hidden;
 }
 
 .section2{
@@ -30,15 +32,21 @@ body{
   font-family: 'Lexend Deca', sans-serif;
   font-weight: normal;
   padding-top: 130px;
-  padding-inline-start: 40px;
+  
 
 
+}
+#botaoresponsive{
+    padding-top: 20px;
+    padding-inline-start: 40px;
 }
 
 .nav-link{
     color: #0C4453;
     font-size: 44px;
     align-self: auto;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: normal;
 }
 .nav-link:hover{
     color: #58CA74;
@@ -63,5 +71,5 @@ p{
     left: 4%;
 }
 #logoresponsive{
-    padding-top: 130px;
+    padding-top: 20px;
 }
