@@ -1,0 +1,30 @@
+
+@media (max-width: 320px){
+    p {
+        font-size: 25px;
+        padding-bottom: 130px;
+        padding-top: 80px;
+    }
+    
+    }
+    @media(min-width:375px){
+        p{
+            padding-bottom: 200px;
+            font-size: 29px;
+        }
+    }
+    @media(min-width:360px){
+        p{
+            padding-bottom: 220px;
+            font-size: 30px;
+        }
+    }
+    
+    
+    @media (max-height: 506px){
+        p {
+            font-size: 40px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+        }
