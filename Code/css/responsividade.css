@@ -1,28 +1,35 @@
-@media (max-width: 321px) {
+@media (max-width: 541px) {
     p {
-        font-size: 30px;
-        padding-bottom: 120px;
-    }
-}
-
-@media (max-width: 415px) {
-    p {
-        font-size: 30px;
-        padding-bottom: 250px;
-    }
-}
-
-@media (max-width: 376px) {
-    p {
-        font-size: 30px;
-        padding-bottom: 250px;
-    }
-}
-
-@media (max-height: 506px) {
-    p {
-        font-size: 40px;
+        font-size: 23px;
         padding-bottom: 10px;
-        padding-top: 10px;
+        padding-top: 50px;
+    }
+    a.nav-link {
+        font-size: 20px;
+    }
+}
+
+@media(min-width:767px) {
+    P {
+        font-size: 50px;
+        margin-top: 240px;
+    }
+    .navbar-toggler-icon {
+        width: 3.5em;
+        height: 3.5em;
+    }
+    #botaoresponsive {
+        padding-inline-start: 150px;
+        padding-top: 123px;
+    }
+}
+
+@media(min-width:1100px) {
+    P {
+        font-size: 50px;
+        margin-top: 10%;
+    }
+    #botaoresponsive {
+        padding-inline-start: 100px;
     }
 }
