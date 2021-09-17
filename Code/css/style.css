@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
 body {
     margin: 0;
     padding: 0%;
+    overflow-x: hidden;
 }
 
 .section1 {
@@ -13,6 +15,14 @@ body {
     background-image: url(../Design/header.png);
     background-size: cover;
     overflow: hidden;
+    ;
+}
+
+.section2 {
+    background-color: #6695B6;
+    width: 100vw;
+    height: 600px;
+    padding: 0%;
 }
 
 .main-text {
@@ -25,7 +35,31 @@ body {
     font-size: 20px;
 }
 
-.section2 {}
+h1 {
+    padding-top: 10%;
+    padding-left: 10%;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #134958;
+    width: max-content;
+}
+
+#psecao2 {
+    font-size: 50px;
+    word-break: keep-all;
+    color: black;
+    padding-left: 10%;
+    margin-top: 10%;
+    font-weight: lighter;
+}
+
+#imgsecao2 {
+    float: right;
+    padding-top: 3%;
+    width: 650px;
+    height: 450px;
+}
 
 .section3 {}
 
