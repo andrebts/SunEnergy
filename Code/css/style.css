@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0%;
     overflow-x: hidden;
+    width: 100%;
 }
 
 .section1 {
@@ -61,7 +62,77 @@ h1 {
     height: 450px;
 }
 
-.section3 {}
+.section3 {
+    background-color: #185D70;
+    width: 100%;
+    height: 1400px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#h1secao3 {
+    color: #92B4CB;
+    padding-inline-start: 40%;
+    padding-top: 5%;
+    padding-bottom: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.carousel-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    background-color: #185D70;
+}
+
+.mm {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.carouselinfo {
+    background-color: #c3c3c375;
+    height: 100px;
+    justify-content: center;
+}
+
+.carousel-caption {
+    margin: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.nome {
+    color: #2E2E2E;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.infonossotime {
+    color: #2E2E2E;
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.carousel-item {
+    height: 100vh;
+    /* dimensiona o slider à altura do viewport */
+    background-size: cover;
+    background-position: 50%;
+}
 
 .footer {}
 
