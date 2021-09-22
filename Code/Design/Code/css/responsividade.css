@@ -26,21 +26,6 @@
     .section2 {
         height: 290px;
     }
-    .control {
-        margin-bottom: 270px;
-    }
-    .carousel-caption {
-        padding-bottom: 300px;
-    }
-    .carousel-indicators {
-        margin-bottom: 20.3rem;
-    }
-    .nome {
-        font-size: 25px;
-    }
-    .infonossotime {
-        font-size: 20px;
-    }
 }
 
 @media(min-width:767px) {
