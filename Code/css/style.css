@@ -144,7 +144,10 @@ h1 {
     background-position: 50%;
 }
 
-.footer {}
+.footer {
+    background-color: #BAC3C8;
+    width: 100vh;
+}
 
 #menu {
     font-family: 'Lexend Deca', sans-serif;
@@ -186,4 +189,8 @@ p {
 
 #logoresponsive {
     padding-top: 20px;
+}
+
+polygon {
+    height: 900px;
 }
